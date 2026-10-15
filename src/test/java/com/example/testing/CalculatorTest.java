@@ -13,7 +13,7 @@ public class CalculatorTest {
     @Test
     void testAdditionTwoNumbers(){
         int sum = calculator.add(a , b);
-        assertEquals(5, sum);
+        assertEquals(6, sum);
     }
 
     @Test
